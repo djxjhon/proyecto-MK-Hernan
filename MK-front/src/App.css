@@ -1,0 +1,38 @@
+/* HomePage.css */
+body{
+  
+    background-image: url('src/images/logomortal.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 30%; /* Puedes ajustar el tamaño aquí según tus necesidades */
+    background-position: center center;
+  
+  
+}
+.container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+  }
+  
+  .transparent-button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .transparent-button:hover {
+    background-color: rgb(236, 141, 141);
+    color: black;
+  }
+  

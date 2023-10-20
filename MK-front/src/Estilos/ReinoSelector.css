@@ -1,0 +1,70 @@
+/* ReinoSelector.css */
+.container1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-image: url('src/images/fondo_pagina_2.jpg');
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .Titulo {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: white;
+  }
+
+  /* ul {
+    columns: 8;
+    list-style-type: none;
+    flex-wrap: wrap; 
+  } */
+  
+  li {
+    columns: 4;
+    columns: central;
+    cursor: pointer;
+    border-radius: 1px;
+    padding: 5px;
+    background-color: #d8d8d8;
+    margin-bottom: 8px;
+    transition: background-color 0.3s ease-in-out;
+    flex: 1; /* Distribuye el espacio de manera uniforme */
+    margin-right: 10px; /* Espacio entre los elementos */
+  }
+  
+  li:hover {
+    background-color: #EAD7BB;
+    
+  }
+  
+  .selected-reino {
+    
+    font-weight: bold;
+    color: #ff0000; /* Color de texto seleccionado */
+  }
+
+  #reinos {
+    
+    width: 350px;
+    height: 200px;
+  }
+#person{
+  width: 185px;
+  height: 185px;
+}
+
+.character-list{
+  columns: 4;
+  margin-right: 10px;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.realm-list2{
+  columns: 4;
+  list-style-type: none;
+  flex-wrap: wrap;
+}

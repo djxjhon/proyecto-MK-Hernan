@@ -1,0 +1,13 @@
+#boton{
+    background-color: #ffffff;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px; 
+    border-radius: 5px;
+    font-size: 16px; 
+    cursor: pointer; 
+    border: none; 
+    outline: none; 
+    margin-right: 60px;
+  }
